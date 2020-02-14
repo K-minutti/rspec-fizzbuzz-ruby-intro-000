@@ -1,6 +1,8 @@
 puts "Input integer:"
 i = gets.chomp.to_i
 
+fizzbuzz = i 
+
 def fizzbuzz(i)
    if i % 3 == 0
      puts "Fizz"
