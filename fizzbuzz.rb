@@ -9,7 +9,7 @@ def fizzbuzz(i)
    elsif i % 15 == 0
      puts "FizzBuzz"
    else
-     puts i
+     flase
    end
  end
 
