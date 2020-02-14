@@ -1,4 +1,4 @@
-"Input integer"
+puts "Input integer"
 i = gets.chomp.to_i
 
 def fizzbuzz(i)
@@ -9,7 +9,7 @@ def fizzbuzz(i)
    elsif i % 15 == 0
      puts "FizzBuzz"
    else
-     flase
+     false
    end
  end
 
